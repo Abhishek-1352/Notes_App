@@ -1,1 +1,2 @@
-# Just a simple project to practice and show my learnings from react course
+# Just a simple project to practice and show my learnings from react course.
+## Working on it developing. Project will be available soon... 
