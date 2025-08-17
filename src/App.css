@@ -1,3 +1,13 @@
+/* By default, stop the animation */
+.nav-link lord-icon {
+  --lord-icon-mode: static; 
+}
+
+/* Start animating when NavLink is hovered */
+.nav-link:hover lord-icon {
+  --lord-icon-mode: loop;
+}
+
 .App {
   text-align: center;
 }
