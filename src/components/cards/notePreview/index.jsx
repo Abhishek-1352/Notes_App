@@ -63,7 +63,8 @@ export const NotePreview = ({ note, dispatch }) => {
 
     return (
         <>
-            <div className="relative flex flex-col border-solid w-[250px] h-[150px] rounded-md">
+            <div className=" relative flex flex-col w-[250px] h-[150px] rounded-xl 
+                bg-purple-100 hover:bg-purple-200">
                 <span onClick={onPinClick} className='absolute top-0 right-0'>
                     {isPinned()}
                 </span>

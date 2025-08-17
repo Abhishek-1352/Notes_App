@@ -25,9 +25,9 @@ function App() {
     <>
         <Navbar />
 
-        <main className='flex border-solid'>
+        <main className='p-2 flex bg-gradient-to-br from-gray-50 to-purple-50'>
 
-          <Sidebar className='flex '  />
+          <Sidebar className='flex'  />
 
           <Routes>
             <Route path='/' element={<Home state={state} dispatch={dispatch}/>} />

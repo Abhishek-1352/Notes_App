@@ -1,13 +1,20 @@
-import logo from '../../assests/logo/image.jpg'
-export const Navbar =()=>{
-    return(
+import lottie from "lottie-web";
+import { defineElement } from "@lordicon/element";
+export const Navbar = () => {
+    defineElement(lottie.loadAnimation);
+    return (
         <>
-            <header className='flex p-2 border-solid border-3 border-neutral-300 border-b-neutral-500'>
+            <header className='flex p-2 bg-purple-200 text-gray-800'>
                 <div className='w-16 h-16'>
-                    <img className='w-full h-full ' src={logo} alt="logo" />
+                    <lord-icon className='w-16 h-16'
+                        src="https://cdn.lordicon.com/cbtlerlm.json"
+                        trigger="in"
+                        delay="300"
+                        state="in-dynamic">
+                    </lord-icon>
                 </div>
-                <h2 className='text-indigo-300'>Notes App</h2>
+                <h2 >NoteSphere</h2>
             </header>
         </>
-    )   
+    )
 }

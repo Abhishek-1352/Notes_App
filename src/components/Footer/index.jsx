@@ -8,7 +8,7 @@ export const Footer = () => {
 
     return (
         <>
-            <footer className="fixed bottom-0 w-full bg-gray-900 text-gray-300 py-6">
+            <footer className="fixed bottom-0 w-full bg-purple-300 text-gray-700">
                 <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
 
                     <h2 className="text-xl font-semibold text-white">Abhishek Sutar</h2>

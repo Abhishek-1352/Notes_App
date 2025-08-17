@@ -20,15 +20,17 @@ export const Home = ({state,dispatch}) => {
     }
 
     return (
-                <div className=' border-solid border-red-400 w-screen'>
+                <div className='p-2 w-screen'>
+                    
                     <div className='flex flex-col w-[300px] relative p-2 justify-self-center'>
+                        <h2 className="p-0 m-0">Create new</h2>
                         <input value={state.title} onChange ={onTitleChange} className='' type="text" placeholder='Enter Title' />
                         <textarea value={state.text} onChange ={onTextChange} className='h-10' type="text" placeholder='Enter Text' />
                         <lord-icon onclick={state.title?onAddClick:''} className='absolute bottom-2 right-2' src="https://cdn.lordicon.com/vjgknpfx.json" trigger="click" state="hover-swirl"></lord-icon>
                     </div>
 
                     <h3>Pinned Notes:</h3>
-                    <div className='flex gap-6 border-solid border-violet-500'>
+                    <div className='flex gap-6 '>
                         {
                             state.notes?.length>0 && state.notes.map(note=>(
                                 !note.isArchived && !note.isBinned && note.isPinned?<NotePreview note={note}dispatch={dispatch}/>:''
@@ -38,7 +40,7 @@ export const Home = ({state,dispatch}) => {
                     </div>
 
                     <h3>All Notes:</h3>
-                    <div className='flex gap-6 border-solid border-violet-500'>
+                    <div className='flex gap-6 '>
                         {
                             state.notes?.length>0 && state.notes.map(note=>(
                                 !note.isArchived && !note.isBinned && !note.isPinned?<NotePreview note={note}dispatch={dispatch}/>:''
