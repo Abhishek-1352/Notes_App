@@ -1,12 +1,43 @@
-# Just a simple project to practice and show my learnings from react course.
+# 📝 Notesphere - A Simple Note-Taking App
 
-Step 1: git clone https://github.com/Abhishek-1352/notes_app.git
+Notesphere is a lightweight note-taking app built with **React** to practice and strengthen core concepts such as **components, props, state management, hooks, and event handling**.  
 
-Open in any editor eg:VScode
-in terminal
+This project was created as part of my learning journey while completing the **React.js Course from GeeksforGeeks**.  
 
-Step 2: cd notes_app
+---
 
-Step 3: npm install
+## ✨ Features
+- ➕ Add new notes
+- 📌 Pin/Unpin notes
+- 🗑️ Delete notes
+- 🎨 Clean and responsive UI with **Tailwind CSS**
+- ⚡ Smooth user experience powered by **React**
+- 🎥 Animated icons integrated using **Lordicon**
 
-Step 4: npm start
+---
+
+## 🛠️ Tech Stack
+- **HTML5**
+- **CSS3 (Tailwind CSS)**
+- **JavaScript (ES6+)**
+- **React.js**
+- **Lordicon (animated icons)**
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/notesphere.git
+
+# 2. Navigate to the project folder
+cd notesphere
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm start
