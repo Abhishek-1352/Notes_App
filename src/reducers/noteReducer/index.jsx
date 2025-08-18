@@ -59,6 +59,5 @@ export const NoteReducer = (state, action) => {
             }
         default:
             return state;
-            break;
     }
 }
